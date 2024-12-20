@@ -1,0 +1,47 @@
+# Node modules and dependencies
+/node_modules/
+
+# ignore assets
+/src/assets/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Production build directory
+/dist/
+
+# Vite
+.vite/
+.vite-temp/
+.vite-plugin-ssr/
+.out/
+
+# Build outputs
+/build/
+/dist/
+
+# Temp files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+
+# IDE/Editors
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output of 'npm pack'
+*.tgz
+
+# Debug log from npm
+npm-debug.log*
